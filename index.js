@@ -5,7 +5,7 @@ const axios = require('axios');
 const { authenticator } = require('otplib'); 
 
 // --- কনফিগারেশন ---
-const token = '8798012592:AAEDubfBAzXYSTHflCoiiWI2htFiGEwFbL0'; 
+const token = '8798012592:AAEDubfBAzXYSTHflCoiiWI2htFiGEwFbL0; 
 const bot = new TelegramBot(token, { polling: true });
 
 const FB_URL = 'https://tafsir-bot-7983f-default-rtdb.asia-southeast1.firebasedatabase.app/bot';
